@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Raleway';
+    color: black;
+    letter-spacing: .03em;
+    margin: 0px;
+    border-right: 15px solid white;
+    border-left: 15px solid white;
+
+}
+
+
+header {
+    height: 80px;
+    background-color: white;
+    width: 100%;
+}
+
+/*Nav*/
+div#nav {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 12px;
+    height: 80px;
+    position: fixed;
+    z-index: 9999;
+}
+
+ul {
+     justify-content: center;
+     display: flex;
+}
+
+li {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 20px;
+    letter-spacing: 1px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+#nav ul li a:hover{
+    border:1px solid black ;
+    padding:15px 10px;
+    margin-top: 10px;
+    transition: .3s;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+#nav ul li a:active{
+    border:1px solid black ;
+    padding:20px 15px;
+    margin-top: 18px;
+    transition: .2s;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+
+}
+
+
+div#content-wrapper {
+    background: url(images/contact-img.png);
+    background-size: cover;
+    height: 110vh;
+}
+
+/*content*/
+
+div#content {
+    height: 90vh;
+    width: 100%;
+}
+
+h1.content-title {
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-size: 3.7rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.content {
+    width: 55%;
+    top: 23%;
+    position: absolute;
+    left: 24%;
+}
+
+.message {
+    padding: 25px;
+    
+}
+
+p {
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.btn-wrapper {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn {
+    padding: 20px 25px;
+    cursor: pointer;
+    background-color: #0bd;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    text-decoration: none;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+    transition: .3s;
+    margin-top: 10px;
+    display:inline-block;
+}
+
+.btn:hover{
+ box-shadow: 0 1px 0 rgba(136,136,136,1);
+  margin-top: 18px;
+  box-shadow: none;
+ background-color: #07859c;
+}
+
