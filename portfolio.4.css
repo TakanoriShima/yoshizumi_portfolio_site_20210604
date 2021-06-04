@@ -1,21 +1,16 @@
 @charset "utf-8";
-
 body {
     font-family: 'Raleway';
     color: black;
     letter-spacing: .03em;
     margin: 0px;
     border: 15px solid white;
-
 }
-
 
 header {
     height: 80px;
     width: 100%;
 }
-
-
 
 div#nav {
     width: 100%;
@@ -23,12 +18,12 @@ div#nav {
     height: 80px;
     position: fixed;
     z-index: 9999;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 ul {
-     justify-content: center;
-     display: flex;
+    justify-content: center;
+    display: flex;
 }
 
 li {
@@ -37,7 +32,7 @@ li {
     font-size: 18px;
     margin: 0 30px;
     letter-spacing: 1px;
-    padding:15px 10px;
+    padding: 15px 10px;
 }
 
 #nav a {
@@ -45,32 +40,29 @@ li {
     color: black;
     cursor: pointer;
     margin-top: 10px;
-    
 }
 
-#nav ul li a:hover{
-    border:1px solid black ;
-    padding:15px 10px;
+#nav ul li a:hover {
+    border: 1px solid black;
+    padding: 15px 10px;
     margin-top: 10px;
     transition: .3s;
     box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
 }
 
-#nav ul li a:active{
-    border:1px solid black ;
-    padding:20px 15px;
+#nav ul li a:active {
+    border: 1px solid black;
+    padding: 20px 15px;
     margin-top: 18px;
     transition: .2s;
     box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
-
 }
-
 
 div#content-wrapper {
-    background:url(images/top-back.png);
+    background: url(images/top-back.png);
     height: auto;
-    
 }
+
 div#content {
     width: 100%;
 }
@@ -108,7 +100,9 @@ h2 {
     font-size: 1.5em;
 }
 
+
 /*ポップアップ*/
+
 .popup {
     height: 60vh;
     width: 65%;
@@ -123,21 +117,20 @@ h2 {
     background: #fafafa;
 }
 
-.popup-work{
+.popup-work {
     border: 3mm ridge #ff9800;
 }
 
-.popup-constract{
+.popup-constract {
     border: 3mm ridge #03a9f46e;
 }
 
-
-.popup-dental{
+.popup-dental {
     border: 3mm ridge #5fe0d4;
 }
 
-.main-image img{
-    width:80%;
+.main-image img {
+    width: 80%;
     border: outset 5px;
 }
 
@@ -160,9 +153,6 @@ h4.clum-title {
     line-height: 25px;
 }
 
-
-
-
 h5.clum-title {
     font-size: 18px;
     margin-bottom: 30px;
@@ -173,34 +163,32 @@ h5.clum-title {
 .clum2 {
     width: 60%;
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 span.close-btn {
     position: absolute;
     right: 30px;
     top: 15px;
-
 }
 
 .btn {
     color: #5fe0d4;
     font-size: 30px;
-    cursor:pointer;
-}
-
-.btn:hover{
-    color:#167b72;;
-}
-
-
-.image-hover{
     cursor: pointer;
 }
 
-.image-hover:hover{
+.btn:hover {
+    color: #167b72;
+    ;
+}
 
-  margin-top: -18px;
-	box-shadow: 8px 6px 7px 2px rgba(0,0,0,0.39) inset, -7px 8px 6px 7px rgba(10,10,10,0.32);
-	transform: translateY(-5px);
+.image-hover {
+    cursor: pointer;
+}
+
+.image-hover:hover {
+    margin-top: -18px;
+    box-shadow: 8px 6px 7px 2px rgba(0, 0, 0, 0.39) inset, -7px 8px 6px 7px rgba(10, 10, 10, 0.32);
+    transform: translateY(-5px);
 }

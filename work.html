@@ -6,99 +6,91 @@
         <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <title>My portfolio</title>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <!-- Original JavaScript -->
         <script src="js/script.js"></script>
     </head>
     <body>
-	 <div id="content-wrapper">
-      <header>
-      <div id="nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="profile.html">Profile</a></li>
-          <li>My skills</li>
-          <li><a href="work.html">Works</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-     </div>
-    </header>
-      <div id="content">
-          <h3 class="content-title">Works</h3>
-          <div class="myportfoli">
-              <div class="works">
-                  
-                  <img src="images/myworks1.png" class="image-hover btn-prof" alt="mywork1">
-                  <h2>Profile page</h2>
-              </div>
-              <div class="works">
-                  <img src="images/myworks2.png" class="image-hover btn-const" alt="mywork2">
-                  <h2>蒼ノ建設</h2>
-              </div>
-              <div class="works">
-                    <img src="images/myworks3.png" class="image-hover btn-dent" alt="mywork2">
-                  <h2>Dental Clinic </h2>
-              </div>
-           </div>
-      </div>
-            <div class="popup popup-work">
-                  <div class="clum1">
+        <div id="content-wrapper">
+            <header>
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li>My skills</li>
+                        <li><a href="work.html">Works</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div id="content">
+                <h3 class="content-title">Works</h3>
+                <div class="myportfoli">
+                    <div class="works">
+                        <img src="images/myworks1.png" class="image-hover btn-prof" data-work="work1" alt="mywork1">
+                        <h2>Profile page</h2>
+                    </div>
+                    <div class="works">
+                        <img src="images/myworks2.png" class="image-hover btn-const" data-work="work2" alt="mywork2">
+                        <h2>蒼ノ建設</h2>
+                    </div>
+                    <div class="works">
+                        <img src="images/myworks3.png" class="image-hover btn-dent" data-work="work3" alt="mywork2">
+                        <h2>Dental Clinic </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="popup popup-work" id="work1">
+                <div class="clum1">
                     <h4 class="clum-title">Work</h4>
                     <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。</p>
                     <h5 class="clum-title">使用言語</h5>
                     <P>HTML,CSS</P>
-                  </div>
-                  <div class="clum2">
-                      <span class="close-btn">
-                          <i class="fas fa-times-circle btn"></i>
-                      </span>
-                  <div class="main-image">
-                       <img src="images/myworks1.png" alt="mywork2">
-                       <a href="work.html"></a>
+                </div>
+                <div class="clum2">
+                    <span class="close-btn">
+                    <i class="fas fa-times-circle btn"></i>
+                    </span>
+                    <div class="main-image">
+                        <img src="images/myworks1.png" alt="mywork2">
+                        <a href="work.html"></a>
                     </div>
-                  </div>
-                
-              
-     </div>
-            <div class="popup popup-constract">
-                  <div class="clum1">
+                </div>
+            </div>
+            <div class="popup popup-constract" id="work2">
+                <div class="clum1">
                     <h4 class="clum-title">Work</h4>
                     <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。</p>
                     <h5 class="clum-title">使用言語</h5>
                     <P>HTML,CSS</P>
-                  </div>
-                  <div class="clum2">
-                      <span class="close-btn">
-                          <i class="fas fa-times-circle btn"></i>
-                      </span>
-                  <div class="main-image">
-                       <img src="images/myworks2.png" alt="mywork2">
-                       <a href="work.html"></a>
+                </div>
+                <div class="clum2">
+                    <span class="close-btn">
+                    <i class="fas fa-times-circle btn"></i>
+                    </span>
+                    <div class="main-image">
+                        <img src="images/myworks2.png" alt="mywork2">
+                        <a href="work.html"></a>
                     </div>
-                  </div>
-                
-              
-     </div>
-            <div class="popup popup-dental">
-                  <div class="clum1">
+                </div>
+            </div>
+            <div class="popup popup-dental" id="work3">
+                <div class="clum1">
                     <h4 class="clum-title">Dental Clinic</h4>
                     <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。</p>
                     <h5 class="clum-title">使用言語</h5>
                     <P>HTML,CSS</P>
-                  </div>
-                  <div class="clum2">
-                      <span class="close-btn">
-                          <i class="fas fa-times-circle btn"></i>
-                      </span>
-                  <div class="main-image">
-                       <img src="images/myworks3.png"  alt="mywork2">
-                       <a href="work.html"></a>
+                </div>
+                <div class="clum2">
+                    <span class="close-btn">
+                    <i class="fas fa-times-circle btn"></i>
+                    </span>
+                    <div class="main-image">
+                        <img src="images/myworks3.png"  alt="mywork2">
+                        <a href="work.html"></a>
                     </div>
-                  </div>
-                
-              
-     </div>
-     </div>
-   </body>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

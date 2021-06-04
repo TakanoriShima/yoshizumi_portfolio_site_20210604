@@ -1,14 +1,77 @@
 @charset "utf-8";
-
 body {
     font-family: 'Raleway';
     color: black;
     letter-spacing: .03em;
     margin: 0px;
     border: 15px solid white;
-
 }
 
+header {
+    height: 80px;
+    width: 100%;
+}
+
+div#nav {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+ul {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 30px;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#nav ul li a:hover {
+    border: 1px solid black;
+    padding: 15px 10px;
+    margin-top: 10px;
+    transition: .3s;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+#nav ul li a:active {
+    border: 1px solid black;
+    padding: 20px 15px;
+    margin-top: 18px;
+    transition: .2s;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+}
+
+div#content-wrapper {
+    background-image: url(images/top-image.png);
+    background-size: 1500px 100vh;
+    height: 100vh;
+}
+
+@charset "utf-8";
+body {
+    font-family: 'Raleway';
+    color: black;
+    letter-spacing: .03em;
+    margin: 0px;
+    border: 15px solid white;
+}
 
 header {
     height: 80px;
@@ -26,8 +89,8 @@ div#nav {
 }
 
 ul {
-     justify-content: center;
-     display: flex;
+    justify-content: center;
+    display: flex;
 }
 
 li {
@@ -43,42 +106,36 @@ li {
     color: black;
     cursor: pointer;
     margin-top: 10px;
-    
 }
 
-#nav ul li a:hover{
-    border:1px solid black ;
-    padding:15px 10px;
+#nav ul li a:hover {
+    border: 1px solid black;
+    padding: 15px 10px;
     margin-top: 10px;
     transition: .3s;
     box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
 }
 
-#nav ul li a:active{
-    border:1px solid black ;
-    padding:20px 15px;
+#nav ul li a:active {
+    border: 1px solid black;
+    padding: 20px 15px;
     margin-top: 18px;
     transition: .2s;
     box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
-
 }
-
 
 div#content-wrappper {
     background-color: #80808026;
     height: 100vh;
-    
 }
-
 
 .main {
     height: 80vh;
-    background:url(images/top-back.png);
+    background: url(images/top-back.png);
 }
 
 .profile {
-    height: auto
-    ;
+    height: auto;
     display: flex;
     justify-content: center;
     position: relative;
@@ -93,7 +150,7 @@ div#content-wrappper {
 }
 
 .section-title {
-    color:black;
+    color: black;
     letter-spacing: 7px;
     text-align: center;
     font-family: 'Sofia', cursive;
@@ -126,7 +183,6 @@ p {
     font-size: 20px;
     font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
     color: black;
-
 }
 
 .myinfo {
@@ -146,24 +202,25 @@ p {
     margin: 70px 0 0 0;
 }
 
+
 /*slider*/
+
 div#effect {
     width: 600px;
     margin: 0 auto;
     height: 300px;
     margin-top: 30px;
-    position:relative;
+    position: relative;
     overflow-y: hidden;
 }
 
 #effect img.silder-img {
     border-radius: 0;
     width: 100%;
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
-    height:100%;
-    
+    height: 100%;
 }
 
 h3.img-title {
@@ -177,5 +234,3 @@ h3.img-title {
     color: #00000040;
     cursor: pointer;
 }
-
-

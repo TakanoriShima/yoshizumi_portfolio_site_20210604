@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 body {
     font-family: 'Raleway';
     color: black;
@@ -7,9 +6,7 @@ body {
     margin: 0px;
     border-right: 15px solid white;
     border-left: 15px solid white;
-
 }
-
 
 header {
     height: 80px;
@@ -17,7 +14,9 @@ header {
     width: 100%;
 }
 
+
 /*Nav*/
+
 div#nav {
     width: 100%;
     margin: 0 auto;
@@ -28,8 +27,8 @@ div#nav {
 }
 
 ul {
-     justify-content: center;
-     display: flex;
+    justify-content: center;
+    display: flex;
 }
 
 li {
@@ -45,32 +44,30 @@ li {
     color: black;
     cursor: pointer;
     margin-top: 10px;
-    
 }
 
-#nav ul li a:hover{
-    border:1px solid black ;
-    padding:15px 10px;
+#nav ul li a:hover {
+    border: 1px solid black;
+    padding: 15px 10px;
     margin-top: 10px;
     transition: .3s;
     box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
 }
 
-#nav ul li a:active{
-    border:1px solid black ;
-    padding:20px 15px;
+#nav ul li a:active {
+    border: 1px solid black;
+    padding: 20px 15px;
     margin-top: 18px;
     transition: .2s;
     box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
-
 }
-
 
 div#content-wrapper {
     background: url(images/contact-img.png);
     background-size: cover;
     height: 110vh;
 }
+
 
 /*content*/
 
@@ -96,7 +93,6 @@ h3.content-title {
 
 .message {
     padding: 25px;
-    
 }
 
 p {
@@ -121,13 +117,12 @@ p {
     box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
     transition: .3s;
     margin-top: 10px;
-    display:inline-block;
+    display: inline-block;
 }
 
-.btn:hover{
- box-shadow: 0 1px 0 rgba(136,136,136,1);
-  margin-top: 18px;
-  box-shadow: none;
- background-color: #07859c;
+.btn:hover {
+    box-shadow: 0 1px 0 rgba(136, 136, 136, 1);
+    margin-top: 18px;
+    box-shadow: none;
+    background-color: #07859c;
 }
-

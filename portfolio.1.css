@@ -1,21 +1,16 @@
 @charset "utf-8";
-
 body {
     font-family: 'Raleway';
     color: black;
     letter-spacing: .03em;
     margin: 0px;
     border: 15px solid white;
-
 }
-
 
 header {
     height: 80px;
     width: 100%;
 }
-
-
 
 div#nav {
     width: 100%;
@@ -23,12 +18,12 @@ div#nav {
     height: 80px;
     position: fixed;
     z-index: 9999;
-    background: rgba(255,255,255,0.7);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 ul {
-     justify-content: center;
-     display: flex;
+    justify-content: center;
+    display: flex;
 }
 
 li {
@@ -37,7 +32,7 @@ li {
     font-size: 18px;
     margin: 0 30px;
     letter-spacing: 1px;
-    padding:15px 10px;
+    padding: 15px 10px;
 }
 
 #nav a {
@@ -45,26 +40,23 @@ li {
     color: black;
     cursor: pointer;
     margin-top: 10px;
-    
 }
 
-#nav ul li a:hover{
-    border:1px solid black ;
-    padding:15px 10px;
+#nav ul li a:hover {
+    border: 1px solid black;
+    padding: 15px 10px;
     margin-top: 10px;
     transition: .3s;
     box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
 }
 
-#nav ul li a:active{
-    border:1px solid black ;
-    padding:20px 15px;
+#nav ul li a:active {
+    border: 1px solid black;
+    padding: 20px 15px;
     margin-top: 18px;
     transition: .2s;
     box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
-
 }
-
 
 div#content-wrapper {
     background-image: url(images/top-image.png);
