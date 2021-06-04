@@ -3,7 +3,13 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="portfolio.4.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
         <title>My portfolio</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Original JavaScript -->
+        <script src="js/script.js"></script>
     </head>
     <body>
 	 <div id="content-wrapper">
@@ -19,32 +25,80 @@
      </div>
     </header>
       <div id="content">
-          <h1 class="content-title">Works</h3>
+          <h3 class="content-title">Works</h3>
           <div class="myportfoli">
               <div class="works">
-                  <img src="images/myworks1.png" alt="mywork1">
+                  
+                  <img src="images/myworks1.png" class="image-hover btn-prof" alt="mywork1">
                   <h2>Profile page</h2>
               </div>
               <div class="works">
-                  <img src="images/myworks2.png" alt="mywork2">
+                  <img src="images/myworks2.png" class="image-hover btn-const" alt="mywork2">
                   <h2>蒼ノ建設</h2>
               </div>
               <div class="works">
-                  <img src="images/myworks3.png" alt="mywork2">
+                    <img src="images/myworks3.png" class="image-hover btn-dent" alt="mywork2">
                   <h2>Dental Clinic </h2>
-              </div>              
-
-              
-              
-              
-                
-
-                
-             
-          </div>
+              </div>
+           </div>
       </div>
+            <div class="popup popup-work">
+                  <div class="clum1">
+                    <h4 class="clum-title">Work</h4>
+                    <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。</p>
+                    <h5 class="clum-title">使用言語</h5>
+                    <P>HTML,CSS</P>
+                  </div>
+                  <div class="clum2">
+                      <span class="close-btn">
+                          <i class="fas fa-times-circle btn"></i>
+                      </span>
+                  <div class="main-image">
+                       <img src="images/myworks1.png" alt="mywork2">
+                       <a href="work.html"></a>
+                    </div>
+                  </div>
+                
+              
      </div>
-    
-        
-    </body>
+            <div class="popup popup-constract">
+                  <div class="clum1">
+                    <h4 class="clum-title">Work</h4>
+                    <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。</p>
+                    <h5 class="clum-title">使用言語</h5>
+                    <P>HTML,CSS</P>
+                  </div>
+                  <div class="clum2">
+                      <span class="close-btn">
+                          <i class="fas fa-times-circle btn"></i>
+                      </span>
+                  <div class="main-image">
+                       <img src="images/myworks2.png" alt="mywork2">
+                       <a href="work.html"></a>
+                    </div>
+                  </div>
+                
+              
+     </div>
+            <div class="popup popup-dental">
+                  <div class="clum1">
+                    <h4 class="clum-title">Dental Clinic</h4>
+                    <p>Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。Ruby on Railsのチュートリアルに沿って制作したWebアプリケーションです。</p>
+                    <h5 class="clum-title">使用言語</h5>
+                    <P>HTML,CSS</P>
+                  </div>
+                  <div class="clum2">
+                      <span class="close-btn">
+                          <i class="fas fa-times-circle btn"></i>
+                      </span>
+                  <div class="main-image">
+                       <img src="images/myworks3.png"  alt="mywork2">
+                       <a href="work.html"></a>
+                    </div>
+                  </div>
+                
+              
+     </div>
+     </div>
+   </body>
 </html>

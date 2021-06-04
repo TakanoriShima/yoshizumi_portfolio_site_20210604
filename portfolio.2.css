@@ -93,7 +93,7 @@ div#content-wrappper {
 }
 
 .section-title {
-    color: ;black
+    color:black;
     letter-spacing: 7px;
     text-align: center;
     font-family: 'Sofia', cursive;
@@ -146,11 +146,24 @@ p {
     margin: 70px 0 0 0;
 }
 
-img.silder-img {
+/*slider*/
+div#effect {
+    width: 600px;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 30px;
+    position:relative;
+    overflow-y: hidden;
+}
+
+#effect img.silder-img {
     border-radius: 0;
-    width: 55%;
-    height: 330px;
-    margin: 20px 0;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    
 }
 
 h3.img-title {

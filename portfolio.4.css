@@ -70,17 +70,12 @@ div#content-wrapper {
     background:url(images/top-back.png);
     height: auto;
     
-}{
-    background-color: #80808026;
-    height: 130vh;
-    
 }
-
 div#content {
     width: 100%;
 }
 
-h1.content-title {
+h3.content-title {
     text-align: center;
     font-family: 'Sofia', cursive;
     font-size: 3.7rem;
@@ -111,4 +106,101 @@ h2 {
     margin-top: 20px;
     font-family: 'Sofia', cursive;
     font-size: 1.5em;
+}
+
+/*ポップアップ*/
+.popup {
+    height: 60vh;
+    width: 65%;
+    position: fixed;
+    top: 15%;
+    left: 0;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    right: 0;
+    background: #fafafa;
+}
+
+.popup-work{
+    border: 3mm ridge #ff9800;
+}
+
+.popup-constract{
+    border: 3mm ridge #03a9f46e;
+}
+
+
+.popup-dental{
+    border: 3mm ridge #5fe0d4;
+}
+
+.main-image img{
+    width:80%;
+    border: outset 5px;
+}
+
+.clum1 {
+    width: 40%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h4.clum-title {
+    font-size: 23px;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+.popup p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+
+
+
+h5.clum-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.clum2 {
+    width: 60%;
+    text-align: center;
+    margin:auto;
+}
+
+span.close-btn {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+
+}
+
+.btn {
+    color: #5fe0d4;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    color:#167b72;;
+}
+
+
+.image-hover{
+    cursor: pointer;
+}
+
+.image-hover:hover{
+
+  margin-top: -18px;
+	box-shadow: 8px 6px 7px 2px rgba(0,0,0,0.39) inset, -7px 8px 6px 7px rgba(10,10,10,0.32);
+	transform: translateY(-5px);
 }

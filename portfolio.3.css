@@ -5,8 +5,7 @@ body {
     color: black;
     letter-spacing: .03em;
     margin: 0px;
-    border-right: 15px solid white;
-    border-left: 15px solid white;
+    border: 15px solid white;
 
 }
 
@@ -17,7 +16,6 @@ header {
     width: 100%;
 }
 
-/*Nav*/
 div#nav {
     width: 100%;
     margin: 0 auto;
@@ -67,67 +65,38 @@ li {
 
 
 div#content-wrapper {
-    background: url(images/contact-img.png);
-    background-size: cover;
-    height: 110vh;
-}
-
-/*content*/
-
-div#content {
-    height: 90vh;
-    width: 100%;
-}
-
-h3.content-title {
-    text-align: center;
-    font-family: 'Sofia', cursive;
-    font-size: 3.7rem;
-    margin-top: 4rem;
-    position: relative;
-}
-
-.content {
-    width: 55%;
-    top: 23%;
-    position: absolute;
-    left: 24%;
-}
-
-.message {
-    padding: 25px;
+    background: url(images/top-back.png);
+    height: 100vh;
     
 }
 
-p {
-    font-size: 1.6rem;
-    padding: 20px;
+
+
+.container-wrapper {
+    width: 75%;
+    padding-right: 8%;
+    padding-left: 8%;
+    position: absolute;
+    top: 15%;
 }
 
-.btn-wrapper {
-    margin-top: 40px;
+.section-title {
+    color: ;black
+    letter-spacing: 7px;
     text-align: center;
+    font-family: 'Sofia', cursive;
+    font-size: 3.8rem;
+    font-weight: normal;
 }
 
-.btn {
-    padding: 20px 25px;
-    cursor: pointer;
-    background-color: #0bd;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    font-size: 1.1rem;
-    text-decoration: none;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
-    transition: .3s;
-    margin-top: 10px;
-    display:inline-block;
+#bar-example-1 {
+  height: 200px;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
-.btn:hover{
- box-shadow: 0 1px 0 rgba(136,136,136,1);
-  margin-top: 18px;
-  box-shadow: none;
- background-color: #07859c;
-}
+
+
+
+
 
